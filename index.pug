@@ -1,0 +1,1313 @@
+doctype html
+html(lang="ko")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+
+    // Google Web Font 
+    . 
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Pen+Script&family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    // XEIcon 
+    . 
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css" />
+    // Favicon 
+    . 
+      <link rel="apple-touch-icon" sizes="57x57" href="./images/favicon/apple-icon-57x57.png" />
+      <link rel="apple-touch-icon" sizes="60x60" href="./images/favicon/apple-icon-60x60.png" />
+      <link rel="apple-touch-icon" sizes="72x72" href="./images/favicon/apple-icon-72x72.png" />
+      <link rel="apple-touch-icon" sizes="76x76" href="./images/favicon/apple-icon-76x76.png" />
+      <link rel="apple-touch-icon" sizes="114x114" href="./images/favicon/apple-icon-114x114.png" />
+      <link rel="apple-touch-icon" sizes="120x120" href="./images/favicon/apple-icon-120x120.png" />
+      <link rel="apple-touch-icon" sizes="144x144" href="./images/favicon/apple-icon-144x144.png" />
+      <link rel="apple-touch-icon" sizes="152x152" href="./images/favicon/apple-icon-152x152.png" />
+      <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-icon-180x180.png" />
+      <link rel="icon" type="image/png" sizes="192x192" href="./images/favicon/android-icon-192x192.png" />
+      <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png" />
+      <link rel="icon" type="image/png" sizes="96x96" href="./images/favicon/favicon-96x96.png" />
+      <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png" />
+      <link rel="manifest" href="./images/favicon/manifest.json" />
+      <meta name="msapplication-TileColor" content="#ffffff" />
+      <meta name="msapplication-TileImage" content="./images/favicon/ms-icon-144x144.png" />
+      <meta name="theme-color" content="#ffffff" />
+
+    title cledor
+    link(rel='stylesheet', href="./css/index.css")
+  body 
+    // header 
+    header 
+      #logoCledor.logoCledor CLEDOR 
+      ul 
+        li
+          a(href="#series") SERIES
+        li
+          a(href="#subscribe") SUBSCRIBE
+        li
+          a(href="#shop") SHOP
+
+    // main 
+    main 
+      video.cledorVideo(src="./video/cledor.mp4", autoplay controls muted loop) 
+
+    // fixedHeader 
+    .fixedHeader 
+      a.logoImg(href="#logoCledor") 
+        img(src="./images/logo.png", alt="logo")
+      .pageNotice 본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었습니다.
+      ul 
+        li
+          a(href="#series") SERIES
+        li
+          a(href="#subscribe") SUBSCRIBE
+        li
+          a(href="#shop") SHOP
+
+    // sectionCon1 
+    section.sectionCon1 
+      #series.contentsBox1 
+        .emptyBox 
+        h2 끌레도르 시리즈
+        h3 국내산 원유로 만드는 풍부한 맛 아이스크림에서 가장 큰 비중을 차지하고 있는 것이 우유라는 점에서 고민을 시작했습니다.
+          br
+          | 끌레도르는 국내 청정 지역의 건강한 젖소에서 짜낸 신선한 우유만을 사용합니다.
+        .cledorStory1 
+          .colorLine1 
+          .cledorSeries1 
+            h4 깨끗해서 더 맛있는
+              br 
+              span 클린라벨 시리즈
+            img.seriesImg1(src="./images/series_01.png", alt="series1")
+        .cledorStory2 
+          .colorLine2 
+          .cledorSeries2 
+            img.seriesImg2(src="./images/series_02.png", alt="series2")
+            h4 또 하나의 명작 탄생
+              br 
+              span 카토닝바 시리즈
+        .cledorStory3 
+          .colorLine3 
+          .cledorSeries3 
+            h4 토핑을 잔뜩 넣은 궁극의 맛
+              br 
+              span 청키 시리즈
+            img.seriesImg3(src="./images/series_03_.png", alt="series3")
+        .cledorStory4 
+          .colorLine4 
+          .cledorSeries4 
+            img.seriesImg4(src="./images/series_04.png", alt="series4")
+            h4 리얼 카카오를 사용한
+              br 
+              span 바 시리즈
+        .cledorStory5 
+          .colorLine5 
+          .cledorSeries5 
+            h4 더 우아하게
+              br 
+              span 즐기는 파르페
+            img.seriesImg5(src="./images/series_05_.png", alt="series5")
+    #subscribe.emptyBox 
+    
+    // sectionCon2 
+    section.sectionCon2 
+      h2 끌레도르 정기구독 서비스
+      h3 매달 집으로 찾아오는 감동
+        br 
+        | 끌레도르가 매달 당신의 일상 속 다채로운 감동을 선사해 줄 거예요.
+      img.cledorModel(src="./images/model1.png", alt="model1")
+
+      .colorBox 
+        .subscribeCon 
+          img.subscribeImg(src="./images/ex1.png", alt="subscribe1")
+          .sConInfoBox1 
+            h4 어렸을 적 먹고 싶을 때마다 냉동고에서
+              br 
+              | 아이스크림을 꺼내 먹는 상상, 해본 적 있나요?
+            p 끌레도르 정기구독을 통해서 상상을 현실로 바꿔보세요.
+              br 
+              | 어른이 된다는 건 힘들고 외로운 일이지만, 
+              br 
+              | 냉동고 가득 쌓아둔 끌레도르와 함께 라면 가끔은 신나는 일이 될 거예요.
+            .sCon1SlideBox 
+              img(src="./images/bar3_.png", alt="bar3")
+              img(src="./images/bar4_.png", alt="bar4")
+              img(src="./images/bar5_.png", alt="bar5")
+              img(src="./images/bar6_.png", alt="bar6")
+              img(src="./images/bar7_.png", alt="bar7")
+        .subscribeCon 
+          .sConInfoBox2
+            h4 매달 아이들 간식이 고민이신가요?
+            p 아무 아이스크림이나 주기엔 소중한 우리 아이.
+              br 
+              | 까다롭게 고른 국내산 원유를 사용한 끌레도르로 매달 간식 걱정을 덜어보세요.
+            .sCon2SlideBox 
+              img(src="./images/pint2_.png", alt="pint2")
+              img(src="./images/pint3_.png", alt="pint3")
+              img(src="./images/pint4_.png", alt="pint4")
+              img(src="./images/cup1_.png", alt="cup1")
+              img(src="./images/cup2_.png", alt="cup2")
+          img.subscribeImg(src="./images/ex2.png", alt="subscribe2")
+        .colorBox2 
+          h2 끌레도르 정기구독이 좋은 이유  
+          ul.subscribeLove 
+            li 
+              img(src="./images/because1.png", alt="because1")
+              h4 다양한 상품구성
+              p 다양하게 맛보는
+                br 
+                | 달콤한 끌레도르
+
+            li 
+              img(src="./images/because2.png", alt="because2")
+              h4 반값 할인 혜택 
+              p 부담 없는 가격으로 풍성하게
+                br 
+                | 즐기는 끌레도르
+
+            li 
+              img(src="./images/because3.png", alt="because3")
+              h4 국내산 원유 사용
+              p 국내산 원유를 사용한
+                br 
+                | 프리미엄 아이스크림
+        img.cledorModel2(src="./images/model2.png", alt="model2")
+        a.subscribeBtn(href="#subscribe") 
+          span 구독
+            br 
+            | 신청하기
+    #shop.emptyBox2
+
+    // subscribeModal 
+    .subscribeModal#subscribeModal 
+      .modalPopUp 
+        .sideBtn 
+          i.xi-angle-right.xi-3x.sideBtnIcon 
+        .sSelectTitle 
+          .barTitle.active BAR 
+          .pintCupTitle PINT+CUP
+        .sSelectBarBox 
+          .productBadge1 구성 상품
+          ul.selectProductBox 
+            li.selectProductBar 
+              img(src="./images/bar3_.png", alt="bar3")
+              .productTitle 크림치즈바
+              button.putProduct 담기
+            li.selectProductBar 
+              img(src="./images/bar4_.png", alt="bar4")
+              .productTitle 크림치즈바 블루베리
+              button.putProduct 담기
+            li.selectProductBar 
+              img(src="./images/bar5_.png", alt="bar5")
+              .productTitle 쿠키앤크림바
+              button.putProduct 담기
+            li.selectProductBar 
+              img(src="./images/bar6_.png", alt="bar6")
+              .productTitle 쿠키앤초코바
+              button.putProduct 담기
+            li.selectProductBar 
+              img(src="./images/bar7_.png", alt="bar7")
+              .productTitle 베리믹스바
+              button.putProduct 담기
+        .sSelectPintCupBox 
+          .productBadge1 구성 상품
+          ul.selectProductBox 
+            li.selectProductPintCup 
+              img(src="./images/pint2_.png", alt="pint2")
+              .productTitle 초코프레첼 &amp; 브라우니 파인트
+              button.putProduct 담기
+            li.selectProductPintCup 
+              img(src="./images/pint3_.png", alt="pint3")
+              .productTitle 더블쿠키 페스티벌 파인트
+              button.putProduct 담기
+            li.selectProductPintCup 
+              img(src="./images/pint4_.png", alt="pint4")
+              .productTitle 레드카펫 치즈케익 파인트
+              button.putProduct 담기
+            li.selectProductPintCup 
+              img(src="./images/cup1_.png", alt="cup1")
+              .productTitle 레드카펫 치즈케익 컵
+              button.putProduct 담기
+            li.selectProductPintCup 
+              img(src="./images/cup2_.png", alt="cup2")
+              .productTitle 쇼콜라 치즈케익 컵
+              button.putProduct 담기
+        .userSelectBarBox 
+          .productBadge2 선택 상품
+          ul.userSelectBox 
+            li.userSelectBar 
+              img(src="./images/bar3_.png", alt="bar3")
+              .selectTitle 크림치즈바
+              .selectNumBox 
+                i.xi-minus-thin.xi-x.minusBtn 
+                input.selectCount(type="number", value="1", min="1", max="5")
+                i.xi-plus-thin.xi-x.plusBtn
+            li.userSelectBar 
+              img(src="./images/bar4_.png", alt="bar4")
+              .selectTitle 크림치즈바 블루베리
+              .selectNumBox 
+                i.xi-minus-thin.xi-x.minusBtn 
+                input.selectCount(type="number", value="1", min="1", max="5")
+                i.xi-plus-thin.xi-x.plusBtn
+            li.userSelectBar 
+              img(src="./images/bar5_.png", alt="bar5")
+              .selectTitle 쿠키앤크림바
+              .selectNumBox 
+                i.xi-minus-thin.xi-x.minusBtn 
+                input.selectCount(type="number", value="1", min="1", max="5")
+                i.xi-plus-thin.xi-x.plusBtn
+            li.userSelectBar 
+              img(src="./images/bar6_.png", alt="bar6")
+              .selectTitle 쿠키앤초코바
+              .selectNumBox 
+                i.xi-minus-thin.xi-x.minusBtn 
+                input.selectCount(type="number", value="1", min="1", max="5")
+                i.xi-plus-thin.xi-x.plusBtn
+            li.userSelectBar 
+              img(src="./images/bar7_.png", alt="bar7")
+              .selectTitle 베리믹스바
+              .selectNumBox 
+                i.xi-minus-thin.xi-x.minusBtn 
+                input.selectCount(type="number", value="1", min="1", max="5")
+                i.xi-plus-thin.xi-x.plusBtn
+        .userSelectPintCupBox 
+          .productBadge2 선택 상품
+          ul.userSelectBox 
+            li.userSelectPintCup 
+              img(src="./images/pint2_.png", alt="pint2")
+              .selectTitle 초코프레첼 &amp; 브라우니 파인트
+              .selectNumBox 
+                i.xi-minus-thin.xi-x.minusBtn 
+                input.selectCount(type="number", value="1", min="1", max="5")
+                i.xi-plus-thin.xi-x.plusBtn
+            li.userSelectPintCup 
+              img(src="./images/pint3_.png", alt="pint3")
+              .selectTitle 더블쿠키 페스티벌 파인트
+              .selectNumBox 
+                i.xi-minus-thin.xi-x.minusBtn 
+                input.selectCount(type="number", value="1", min="1", max="5")
+                i.xi-plus-thin.xi-x.plusBtn
+            li.userSelectPintCup 
+              img(src="./images/pint4_.png", alt="pint4")
+              .selectTitle 레드카펫 치즈케익 파인트
+              .selectNumBox 
+                i.xi-minus-thin.xi-x.minusBtn 
+                input.selectCount(type="number", value="1", min="1", max="5")
+                i.xi-plus-thin.xi-x.plusBtn
+            li.userSelectPintCup 
+              img(src="./images/cup1_.png", alt="cup1")
+              .selectTitle 레드카펫 치즈케익 컵
+              .selectNumBox 
+                i.xi-minus-thin.xi-x.minusBtn 
+                input.selectCount(type="number", value="1", min="1", max="5")
+                i.xi-plus-thin.xi-x.plusBtn
+            li.userSelectPintCup 
+              img(src="./images/cup2_.png", alt="cup2")
+              .selectTitle 쇼콜라 치즈케익 컵
+              .selectNumBox 
+                i.xi-minus-thin.xi-x.minusBtn 
+                input.selectCount(type="number", value="1", min="1", max="5")
+                i.xi-plus-thin.xi-x.plusBtn
+        .subscribeSelectBtnBox 
+          button.subscribeSelectBtn.active 2회
+          button.subscribeSelectBtn 3회
+          button.subscribeSelectBtn 4회
+        .modalSubscribeBtn 
+          span 정기구독 신청
+          .alertNotice 마지막 페이지입니다.
+    
+    // sectionCon3 
+    section.sectionCon3 
+      .contentsBox3 
+        h2 끌레도르 샵
+        .shopBox 
+          .barArea 
+            .barBox 
+              a.barBtn(href="#shop") BAR
+              .bgEmptyBox 
+              .barImgBox 
+                img(src="./images/shop_bar.png", alt="shop bar")
+          .pintArea 
+            .pintBox 
+              a.pintBtn(href="#shop") PINT
+              .bgEmptyBox 
+              .pintImgBox 
+                img(src="./images/shop_pint.png", alt="shop pint")
+          .cupArea 
+            .cupBox 
+              a.cupBtn(href="#shop") CUP
+              .bgEmptyBox 
+              .cupImgBox 
+                img(src="./images/shop_cup.png", alt="shop cup")
+
+    // sectionCon3 modal 
+    .barModal.shopModal 
+      .modalPopUp 
+        .selectInfo.active 
+          a.selectImg(href="#shop") 
+            img(src="./images/bar1.jpg", alt="bar1")
+          .detailInfoBox 
+            h1 마다가스카르 바닐라 아몬드바
+              span 총 내용량 (90ml)
+            .detailInfo 
+              ul.navBarInfo 
+                li 
+                  ul 
+                    li 열량
+                    li 280kcal
+                    li 
+                li 
+                  ul 
+                    li 나트륨
+                    li 50mg
+                    li 3%
+                li 
+                  ul 
+                    li 탄수화물
+                    li 21g
+                    li 6%
+                li 
+                  ul 
+                    li 당류
+                    li 19g
+                    li 19%
+                li 
+                  ul 
+                    li 지방
+                    li 20g
+                    li 37%
+                li 
+                  ul 
+                    li 트랜스지방
+                    li 0.2g
+                    li
+                li 
+                  ul 
+                    li 포화지방
+                    li 11g
+                    li 73%
+                li 
+                  ul 
+                    li 콜레스테롤
+                    li 35mg
+                    li 12%
+                li 
+                  ul 
+                    li 단백질
+                    li 4g
+                    li 7%
+            .bottomInfo &lowast;&nbsp;%영양성분 기준치: 1일 영양성분 기준치에 대한 비율
+        .selectInfo 
+          a.selectImg(href="#shop") 
+            img(src="./images/bar2.jpg", alt="bar2")
+          .detailInfoBox 
+              h1 청정 제주 녹차바
+                span 총 내용량 (90ml)
+              .detailInfo 
+                ul.navBarInfo 
+                  li 
+                    ul 
+                      li 열량
+                      li 227kcal
+                      li 
+                  li 
+                    ul 
+                      li 나트륨
+                      li 40mg
+                      li 2%
+                  li 
+                    ul 
+                      li 탄수화물
+                      li 20g
+                      li 6%
+                  li 
+                    ul 
+                      li 당류
+                      li 18g
+                      li 18%
+                  li 
+                    ul 
+                      li 지방
+                      li 15g
+                      li 28%
+                  li 
+                    ul 
+                      li 트랜스지방
+                      li 0.2g
+                      li
+                  li 
+                    ul 
+                      li 포화지방
+                      li 10g
+                      li 67%
+                  li 
+                    ul 
+                      li 콜레스테롤
+                      li 30mg
+                      li 10%
+                  li 
+                    ul 
+                      li 단백질
+                      li 3g
+                      li 5%
+              .bottomInfo &lowast;&nbsp;%영양성분 기준치: 1일 영양성분 기준치에 대한 비율
+        .selectInfo 
+          a.selectImg(href="#shop") 
+            img(src="./images/bar3.jpg", alt="bar3")
+          .detailInfoBox 
+              h1 크림치즈바
+                span 총 내용량 (90ml)
+              .detailInfo 
+                ul.navBarInfo 
+                  li 
+                    ul 
+                      li 열량
+                      li 190kcal
+                      li 
+                  li 
+                    ul 
+                      li 나트륨
+                      li 120mg
+                      li 6%
+                  li 
+                    ul 
+                      li 탄수화물
+                      li 18g
+                      li 6%
+                  li 
+                    ul 
+                      li 당류
+                      li 14g
+                      li 14%
+                  li 
+                    ul 
+                      li 지방
+                      li 12g
+                      li 22%
+                  li 
+                    ul 
+                      li 트랜스지방
+                      li 0.4g
+                      li
+                  li 
+                    ul 
+                      li 포화지방
+                      li 9g
+                      li 60%
+                  li 
+                    ul 
+                      li 콜레스테롤
+                      li 12mg
+                      li 4%
+                  li 
+                    ul 
+                      li 단백질
+                      li 2g
+                      li 4%
+              .bottomInfo &lowast;&nbsp;%영양성분 기준치: 1일 영양성분 기준치에 대한 비율
+        .selectInfo 
+          a.selectImg(href="#shop") 
+            img(src="./images/bar7.jpg", alt="bar7")
+          .detailInfoBox 
+              h1 베리믹스바
+                span 총 내용량 (90ml)
+              .detailInfo 
+                ul.navBarInfo 
+                  li 
+                    ul 
+                      li 열량
+                      li 215kcal
+                      li 
+                  li 
+                    ul 
+                      li 나트륨
+                      li 55mg
+                      li 3%
+                  li 
+                    ul 
+                      li 탄수화물
+                      li 20g
+                      li 6%
+                  li 
+                    ul 
+                      li 당류
+                      li 18g
+                      li 18%
+                  li 
+                    ul 
+                      li 지방
+                      li 14g
+                      li 26%
+                  li 
+                    ul 
+                      li 트랜스지방
+                      li 0.5g
+                      li
+                  li 
+                    ul 
+                      li 포화지방
+                      li 10g
+                      li 67%
+                  li 
+                    ul 
+                      li 콜레스테롤
+                      li 20mg
+                      li 7%
+                  li 
+                    ul 
+                      li 단백질
+                      li 2g
+                      li 4%
+              .bottomInfo &lowast;&nbsp;%영양성분 기준치: 1일 영양성분 기준치에 대한 비율
+        .selectInfo 
+          a.selectImg(href="#shop") 
+            img(src="./images/bar5.jpg", alt="bar5")
+          .detailInfoBox 
+              h1 쿠키앤크림바
+                span 총 내용량 (90ml)
+              .detailInfo 
+                ul.navBarInfo 
+                  li 
+                    ul 
+                      li 열량
+                      li 275kcal
+                      li 
+                  li 
+                    ul 
+                      li 나트륨
+                      li 75mg
+                      li 4%
+                  li 
+                    ul 
+                      li 탄수화물
+                      li 27g
+                      li 8%
+                  li 
+                    ul 
+                      li 당류
+                      li 20g
+                      li 20%
+                  li 
+                    ul 
+                      li 지방
+                      li 17g
+                      li 31%
+                  li 
+                    ul 
+                      li 트랜스지방
+                      li 0.2g
+                      li
+                  li 
+                    ul 
+                      li 포화지방
+                      li 12g
+                      li 80%
+                  li 
+                    ul 
+                      li 콜레스테롤
+                      li 15mg
+                      li 5%
+                  li 
+                    ul 
+                      li 단백질
+                      li 4g
+                      li 7%
+              .bottomInfo &lowast;&nbsp;%영양성분 기준치: 1일 영양성분 기준치에 대한 비율
+        .selectInfo 
+          a.selectImg(href="#shop") 
+            img(src="./images/bar4.jpg", alt="bar4")
+          .detailInfoBox 
+              h1 크림치즈바 블루베리
+                span 총 내용량 (90ml)
+              .detailInfo 
+                ul.navBarInfo 
+                  li 
+                    ul 
+                      li 열량
+                      li 215kcal
+                      li 
+                  li 
+                    ul 
+                      li 나트륨
+                      li 120mg
+                      li 6%
+                  li 
+                    ul 
+                      li 탄수화물
+                      li 27g
+                      li 8%
+                  li 
+                    ul 
+                      li 당류
+                      li 18g
+                      li 18%
+                  li 
+                    ul 
+                      li 지방
+                      li 14g
+                      li 26%
+                  li 
+                    ul 
+                      li 트랜스지방
+                      li 0.4g
+                      li
+                  li 
+                    ul 
+                      li 포화지방
+                      li 10g
+                      li 67%
+                  li 
+                    ul 
+                      li 콜레스테롤
+                      li 15mg
+                      li 5%
+                  li 
+                    ul 
+                      li 단백질
+                      li 2g
+                      li 4%
+              .bottomInfo &lowast;&nbsp;%영양성분 기준치: 1일 영양성분 기준치에 대한 비율
+        .selectInfo 
+          a.selectImg(href="#shop") 
+            img(src="./images/bar6.jpg", alt="bar6")
+          .detailInfoBox 
+              h1 쿠키앤초코바
+                span 총 내용량 (90ml)
+              .detailInfo 
+                ul.navBarInfo 
+                  li 
+                    ul 
+                      li 열량
+                      li 265kcal
+                      li 
+                  li 
+                    ul 
+                      li 나트륨
+                      li 80mg
+                      li 4%
+                  li 
+                    ul 
+                      li 탄수화물
+                      li 28g
+                      li 9%
+                  li 
+                    ul 
+                      li 당류
+                      li 21g
+                      li 21%
+                  li 
+                    ul 
+                      li 지방
+                      li 15g
+                      li 28%
+                  li 
+                    ul 
+                      li 트랜스지방
+                      li 0.2g
+                      li
+                  li 
+                    ul 
+                      li 포화지방
+                      li 11g
+                      li 73%
+                  li 
+                    ul 
+                      li 콜레스테롤
+                      li 15mg
+                      li 5%
+                  li 
+                    ul 
+                      li 단백질
+                      li 4g
+                      li 7%
+              .bottomInfo &lowast;&nbsp;%영양성분 기준치: 1일 영양성분 기준치에 대한 비율
+        .slideBox 
+          a.active(href="#shop") 
+            img(src="./images/bar1.jpg", alt="bar1")
+          a(href="#shop") 
+            img(src="./images/bar2.jpg", alt="bar2")
+          a(href="#shop") 
+            img(src="./images/bar3.jpg", alt="bar3")
+          a(href="#shop") 
+            img(src="./images/bar7.jpg", alt="bar7")
+          a(href="#shop") 
+            img(src="./images/bar5.jpg", alt="bar5")
+          a(href="#shop") 
+            img(src="./images/bar4.jpg", alt="bar4")
+          a(href="#shop") 
+            img(src="./images/bar6.jpg", alt="bar6")
+        .slideBtn
+          i.xi-angle-left.xi-3x.slideLeftBtn
+          i.xi-angle-right.xi-3x.slideRightBtn
+        .closeBtn 
+          i.xi-close.xi-3x 
+    .pintModal.shopModal 
+      .modalPopUp 
+        .selectInfo.active 
+          a.selectImg(href="#shop") 
+            img(src="./images/pint1.jpg", alt="pint1")
+          .detailInfoBox
+              h1 클린라벨 초코 파인트
+                span 총 내용량 (474ml)
+              .detailInfo 
+                ul.navBarInfo 
+                  li 
+                    ul 
+                      li 열량
+                      li 210kcal
+                      li 
+                  li 
+                    ul 
+                      li 나트륨
+                      li 60mg
+                      li 3%
+                  li 
+                    ul 
+                      li 탄수화물
+                      li 17g
+                      li 5%
+                  li 
+                    ul 
+                      li 당류
+                      li 15g
+                      li 15%
+                  li 
+                    ul 
+                      li 지방
+                      li 13g
+                      li 24%
+                  li 
+                    ul 
+                      li 트랜스지방
+                      li 0.5g
+                      li
+                  li 
+                    ul 
+                      li 포화지방
+                      li 8g
+                      li 53%
+                  li 
+                    ul 
+                      li 콜레스테롤
+                      li 70mg
+                      li 23%
+                  li 
+                    ul 
+                      li 단백질
+                      li 3.7g
+                      li 7%
+              .bottomInfo &lowast;&nbsp;%영양성분 기준치: 1일 영양성분 기준치에 대한 비율
+        .selectInfo
+          a.selectImg(href="#shop") 
+            img(src="./images/pint2.jpg", alt="pint2")
+          .detailInfoBox 
+              h1 초코프레첼&amp;브라우니 파인트
+                span 총 내용량 (474ml)
+              .detailInfo 
+                ul.navBarInfo 
+                  li 
+                    ul 
+                      li 열량
+                      li 209kcal
+                      li 
+                  li 
+                    ul 
+                      li 나트륨
+                      li 85mg
+                      li 4%
+                  li 
+                    ul 
+                      li 탄수화물
+                      li 25g
+                      li 8%
+                  li 
+                    ul 
+                      li 당류
+                      li 17g
+                      li 17%
+                  li 
+                    ul 
+                      li 지방
+                      li 10.3g
+                      li 19%
+                  li 
+                    ul 
+                      li 트랜스지방
+                      li 0.2g
+                      li
+                  li 
+                    ul 
+                      li 포화지방
+                      li 7g
+                      li 47%
+                  li 
+                    ul 
+                      li 콜레스테롤
+                      li 30mg
+                      li 10%
+                  li 
+                    ul 
+                      li 단백질
+                      li 4g
+                      li 7%
+              .bottomInfo &lowast;&nbsp;%영양성분 기준치: 1일 영양성분 기준치에 대한 비율
+        .selectInfo
+          a.selectImg(href="#shop") 
+            img(src="./images/pint3.jpg", alt="pint3")
+          .detailInfoBox 
+              h1 더블쿠키 페스티벌 파인트
+                span 총 내용량 (474ml)
+              .detailInfo 
+                ul.navBarInfo 
+                  li 
+                    ul 
+                      li 열량
+                      li 209kcal
+                      li 
+                  li 
+                    ul 
+                      li 나트륨
+                      li 115mg
+                      li 6%
+                  li 
+                    ul 
+                      li 탄수화물
+                      li 26g
+                      li 8%
+                  li 
+                    ul 
+                      li 당류
+                      li 19g
+                      li 19%
+                  li 
+                    ul 
+                      li 지방
+                      li 10g
+                      li 19%
+                  li 
+                    ul 
+                      li 트랜스지방
+                      li 0.2g
+                      li
+                  li 
+                    ul 
+                      li 포화지방
+                      li 6g
+                      li 40%
+                  li 
+                    ul 
+                      li 콜레스테롤
+                      li 45mg
+                      li 15%
+                  li 
+                    ul 
+                      li 단백질
+                      li 3.8g
+                      li 7%
+              .bottomInfo &lowast;&nbsp;%영양성분 기준치: 1일 영양성분 기준치에 대한 비율
+        .selectInfo
+          a.selectImg(href="#shop") 
+            img(src="./images/pint4.jpg", alt="pint4")
+          .detailInfoBox 
+              h1 레드카펫 치즈케익 파인트
+                span 총 내용량 (474ml)
+              .detailInfo 
+                ul.navBarInfo 
+                  li 
+                    ul 
+                      li 열량
+                      li 209kcal
+                      li 
+                  li 
+                    ul 
+                      li 나트륨
+                      li 100mg
+                      li 5%
+                  li 
+                    ul 
+                      li 탄수화물
+                      li 21g
+                      li 6%
+                  li 
+                    ul 
+                      li 당류
+                      li 19g
+                      li 19%
+                  li 
+                    ul 
+                      li 지방
+                      li 12.5g
+                      li 23%
+                  li 
+                    ul 
+                      li 트랜스지방
+                      li 0.3g
+                      li
+                  li 
+                    ul 
+                      li 포화지방
+                      li 10g
+                      li 67%
+                  li 
+                    ul 
+                      li 콜레스테롤
+                      li 50mg
+                      li 17%
+                  li 
+                    ul 
+                      li 단백질
+                      li 3g
+                      li 5%
+              .bottomInfo &lowast;&nbsp;%영양성분 기준치: 1일 영양성분 기준치에 대한 비율
+        .selectInfo
+          a.selectImg(href="#shop") 
+            img(src="./images/pint5.jpg", alt="pint5")
+          .detailInfoBox 
+              h1 클린라벨 커피 파인트
+                span 총 내용량 (474ml)
+              .detailInfo 
+                ul.navBarInfo 
+                  li 
+                    ul 
+                      li 열량
+                      li 210kcal
+                      li 
+                  li 
+                    ul 
+                      li 나트륨
+                      li 65mg
+                      li 3%
+                  li 
+                    ul 
+                      li 탄수화물
+                      li 18g
+                      li 6%
+                  li 
+                    ul 
+                      li 당류
+                      li 17g
+                      li 17%
+                  li 
+                    ul 
+                      li 지방
+                      li 12.5g
+                      li 23%
+                  li 
+                    ul 
+                      li 트랜스지방
+                      li 0.3g
+                      li
+                  li 
+                    ul 
+                      li 포화지방
+                      li 10g
+                      li 67%
+                  li 
+                    ul 
+                      li 콜레스테롤
+                      li 50mg
+                      li 17%
+                  li 
+                    ul 
+                      li 단백질
+                      li 3g
+                      li 5%
+              .bottomInfo &lowast;&nbsp;%영양성분 기준치: 1일 영양성분 기준치에 대한 비율
+        .slideBox 
+          a.active(href="#shop") 
+            img(src="./images/pint1.jpg", alt="pint1")
+          a(href="#shop") 
+            img(src="./images/pint2.jpg", alt="pint2")
+          a(href="#shop") 
+            img(src="./images/pint3.jpg", alt="pint3")
+          a(href="#shop") 
+            img(src="./images/pint4.jpg", alt="pint4")
+          a(href="#shop") 
+            img(src="./images/pint5.jpg", alt="pint5")
+        .closeBtn 
+          i.xi-close.xi-3x 
+    .cupModal.shopModal 
+      .modalPopUp 
+        .selectInfo.active 
+          a.selectImg(href="#shop") 
+            img(src="./images/cup1.jpg", alt="cup1")
+          .detailInfoBox
+              h1 레드카펫 치즈케익컵
+                span 총 내용량 (110ml)
+              .detailInfo 
+                ul.navBarInfo 
+                  li 
+                    ul 
+                      li 열량
+                      li 180kcal
+                      li 
+                  li 
+                    ul 
+                      li 나트륨
+                      li 85mg
+                      li 4%
+                  li 
+                    ul 
+                      li 탄수화물
+                      li 19g
+                      li 6%
+                  li 
+                    ul 
+                      li 당류
+                      li 17g
+                      li 17%
+                  li 
+                    ul 
+                      li 지방
+                      li 10g
+                      li 19%
+                  li 
+                    ul 
+                      li 트랜스지방
+                      li 0.4g
+                      li
+                  li 
+                    ul 
+                      li 포화지방
+                      li 7g
+                      li 47%
+                  li 
+                    ul 
+                      li 콜레스테롤
+                      li 40mg
+                      li 13%
+                  li 
+                    ul 
+                      li 단백질
+                      li 3g
+                      li 5%
+              .bottomInfo &lowast;&nbsp;%영양성분 기준치: 1일 영양성분 기준치에 대한 비율
+        .selectInfo
+          a.selectImg(href="#shop") 
+            img(src="./images/cup2.jpg", alt="cup2")
+          .detailInfoBox 
+              h1 쇼콜라 치즈케익컵
+                span 총 내용량 (110ml)
+              .detailInfo 
+                ul.navBarInfo 
+                  li 
+                    ul 
+                      li 열량
+                      li 185kcal
+                      li 
+                  li 
+                    ul 
+                      li 나트륨
+                      li 85mg
+                      li 4%
+                  li 
+                    ul 
+                      li 탄수화물
+                      li 21g
+                      li 6%
+                  li 
+                    ul 
+                      li 당류
+                      li 18g
+                      li 18%
+                  li 
+                    ul 
+                      li 지방
+                      li 10g
+                      li 19%
+                  li 
+                    ul 
+                      li 트랜스지방
+                      li 0.4g
+                      li
+                  li 
+                    ul 
+                      li 포화지방
+                      li 6g
+                      li 40%
+                  li 
+                    ul 
+                      li 콜레스테롤
+                      li 55mg
+                      li 18%
+                  li 
+                    ul 
+                      li 단백질
+                      li 3g
+                      li 5%
+              .bottomInfo &lowast;&nbsp;%영양성분 기준치: 1일 영양성분 기준치에 대한 비율
+        .selectInfo
+          a.selectImg(href="#shop") 
+            img(src="./images/cup3.jpg", alt="cup3")
+          .detailInfoBox 
+              h1 파르페 초코
+                span 총 내용량 (260ml)
+              .detailInfo 
+                ul.navBarInfo 
+                  li 
+                    ul 
+                      li 열량
+                      li 260kcal
+                      li 
+                  li 
+                    ul 
+                      li 나트륨
+                      li 85mg
+                      li 4%
+                  li 
+                    ul 
+                      li 탄수화물
+                      li 43g
+                      li 13%
+                  li 
+                    ul 
+                      li 당류
+                      li 32g
+                      li 32%
+                  li 
+                    ul 
+                      li 지방
+                      li 8.5g
+                      li 16%
+                  li 
+                    ul 
+                      li 트랜스지방
+                      li 0.3g
+                      li
+                  li 
+                    ul 
+                      li 포화지방
+                      li 5.7g
+                      li 38%
+                  li 
+                    ul 
+                      li 콜레스테롤
+                      li 25mg
+                      li 8%
+                  li 
+                    ul 
+                      li 단백질
+                      li 2.6g
+                      li 5%
+              .bottomInfo &lowast;&nbsp;%영양성분 기준치: 1일 영양성분 기준치에 대한 비율
+        .selectInfo
+          a.selectImg(href="#shop") 
+            img(src="./images/cup4.jpg", alt="cup4")
+          .detailInfoBox 
+              h1 파르페 체리블라썸
+                span 총 내용량 (260ml)
+              .detailInfo 
+                ul.navBarInfo 
+                  li 
+                    ul 
+                      li 열량
+                      li 270kcal
+                      li 
+                  li 
+                    ul 
+                      li 나트륨
+                      li 90mg
+                      li 5%
+                  li 
+                    ul 
+                      li 탄수화물
+                      li 43g
+                      li 13%
+                  li 
+                    ul 
+                      li 당류
+                      li 33g
+                      li 33%
+                  li 
+                    ul 
+                      li 지방
+                      li 9.5g
+                      li 18%
+                  li 
+                    ul 
+                      li 트랜스지방
+                      li 0.3g
+                      li
+                  li 
+                    ul 
+                      li 포화지방
+                      li 6.8g
+                      li 45%
+                  li 
+                    ul 
+                      li 콜레스테롤
+                      li 25mg
+                      li 8%
+                  li 
+                    ul 
+                      li 단백질
+                      li 3g
+                      li 5%
+              .bottomInfo &lowast;&nbsp;%영양성분 기준치: 1일 영양성분 기준치에 대한 비율
+        .slideBox 
+          a.active(href="#shop") 
+            img(src="./images/cup1.jpg", alt="cup1")
+          a(href="#shop") 
+            img(src="./images/cup2.jpg", alt="cup2")
+          a(href="#shop") 
+            img(src="./images/cup3.jpg", alt="cup3")
+          a(href="#shop") 
+            img(src="./images/cup4.jpg", alt="cup4")
+        .closeBtn 
+          i.xi-close.xi-3x 
+
+    // sectionCon4 
+    section.sectionCon4 
+      .contentsBox4 
+        h2 끌레도르 인스타그램
+        h3 끌레도르와 함께 하는 감동의 순간을 확인해보세요.
+        .instaBox 
+          a(target="_blank", href="https://www.instagram.com/p/CCQgJWpl9NT/") 
+            img(src="./images/insta_1.jpg", alt="insta1")
+          a(target="_blank", href="https://www.instagram.com/p/CHbh2nRFMKt/") 
+            img(src="./images/insta_2.jpg", alt="insta2")
+          a(target="_blank", href="https://www.instagram.com/p/CDH-QYJnHRD/") 
+            img(src="./images/insta_3.jpg", alt="insta3")
+          a(target="_blank", href="https://www.instagram.com/p/CAcDq7IHea-/") 
+            img(src="./images/insta_4.jpg", alt="insta4")
+
+    // footer 
+    footer 
+      .footerCon 
+        .infoTop 
+          .infoBox1 
+            span.infoTitle 고객센터
+            br 
+            a.tel(href="tel:070-7760-0171") 
+              span.telTitle TEL 
+              | 070-7760-0171
+            br 
+            | 운영시간 09:00 - 17:00 점심시간 12:00 - 13:00
+            br 
+            span.closed 토요일/일요일/공휴일 휴무
+          .infoBox2 
+            span.infoTitle (주)빙그레
+            br 
+            | 주소 : 서울특별시 중구 서소문로11길 19
+            br 
+            | 사업자등록번호 : 132-81-00631 
+            a(target="_blank" href="https://www.ftc.go.kr/bizCommPop.do?wrkr_no=1328100631") [사업자정보확인]
+            br 
+            | 통신판매업신고번호 : 다산-0172
+          .infoBox3 
+            span.infoTitle 웨스트윙
+            br 
+            | 주소 : 경상북도 영천시 올밤길 50
+            br 
+            | 사업자번호 : 620-12-74347 
+            a(target="_blank" href="https://www.ftc.go.kr/bizCommPop.do?wrkr_no=6201274347") [사업자정보확인]
+            br 
+            | 통신판매업신고 : 2017-경북영천-0027
+        .infoBottom 
+          .copyRight Copyright (주)빙그레 All rights reserved
+
+    // scroll Top 
+    a.scrollTopBtn(href="#logoCledor") Top
+    // jQuery 
+    script(src="./js/jquery-3.6.0.min.js")
+    script(src="./js/index.js")
